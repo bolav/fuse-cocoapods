@@ -12,8 +12,12 @@ Using [fusepm](https://github.com/bolav/fusepm)
 
 ## Usage:
 
-### Unoproj
+Create a .uxl file that is included in your .unoproj. For instance `CocoaPods.uxl`.
 
-    Includes: ['Podfile']
+    <Package>
+        <Extensions Backend="CPlusPlus" Condition="iOS">
+            <ProcessFile Name="Podfile" />
+        </Extensions>
+    </Package>
 
 And then create the Podfile you want.
