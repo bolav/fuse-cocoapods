@@ -1,0 +1,8 @@
+{
+  "RootNamespace": "",
+  "Packages": [],
+  "Includes": [
+    "CocoaPods.uxl"
+  ],
+  "Version": "0.0.1"
+}
