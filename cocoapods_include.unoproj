@@ -2,7 +2,7 @@
   "RootNamespace": "",
   "Packages": [],
   "Includes": [
-    "CocoaPods.uxl"
+    "CocoaPods-support/Fuse_CocoaPods_Support.uxl"
   ],
   "Version": "0.0.1"
 }

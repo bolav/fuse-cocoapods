@@ -1,8 +1,0 @@
-<Package>
-<Extensions Backend="CPlusPlus" Condition="iOS">
-    <ProcessFile Name="CocoaPods-support/run.sh" TargetName="run.sh" />
-    <ProcessFile Name="CocoaPods-support/build.sh" TargetName="build.sh" />
-    <ProcessFile Name="CocoaPods-support/project.pbxproj" TargetName="@(Project.Name).xcodeproj/project.pbxproj" />
-</Extensions>
-
-</Package>
