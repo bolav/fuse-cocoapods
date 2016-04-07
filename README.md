@@ -1,7 +1,7 @@
 Fuse CocoaPods
 ==============
 
-Module to use [CocoaPods](htthttps://cocoapods.org/) in [Fuse](http://www.fusetools.com/).
+Module to use [CocoaPods](https://cocoapods.org/) in [Fuse](http://www.fusetools.com/).
 
 ## Installation
 
