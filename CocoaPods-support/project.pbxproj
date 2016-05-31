@@ -290,7 +290,7 @@
                 GCC_WARN_UNUSED_FUNCTION = NO;
                 GCC_WARN_UNUSED_VARIABLE = NO;
                 HEADER_SEARCH_PATHS = (
-                    $(inherited)
+                    "$(inherited)",
                     @(Pbxproj.IncludeDirectories)
                 );
                 INFOPLIST_FILE = "@(Project.Name)/@(Project.Name)-Info.plist";
@@ -328,7 +328,7 @@
                 GCC_WARN_UNUSED_FUNCTION = NO;
                 GCC_WARN_UNUSED_VARIABLE = NO;
                 HEADER_SEARCH_PATHS = (
-                    $(inherited)
+                    "$(inherited)",
                     @(Pbxproj.IncludeDirectories)
                 );
                 INFOPLIST_FILE = "@(Project.Name)/@(Project.Name)-Info.plist";
