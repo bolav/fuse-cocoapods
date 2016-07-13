@@ -1,8 +1,8 @@
 <Package>
+<Extensions Backend="CPlusPlus" Condition="iOS">
     <Declare Element="Cocoapods.Podfile.Pre" />
     <Declare Element="Cocoapods.Podfile.Target" />
     <Declare Element="Cocoapods.Podfile.Post" />
-<Extensions Backend="CPlusPlus" Condition="iOS">
     <ProcessFile Name="run.sh" TargetName="run.sh" />
     <ProcessFile Name="build.sh" TargetName="build.sh" />
     <ProcessFile Name="Podfile" TargetName="Podfile" />
