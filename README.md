@@ -10,7 +10,14 @@ Using [fusepm](https://github.com/bolav/fusepm)
     $ fusepm install https://github.com/bolav/fuse-cocoapods
 
 
-## Usage:
+## New usage:
+
+In a uno file:
+
+    [Require("Cocoapods.Podfile.Target", "pod 'Dropbox-iOS-SDK'")]
+
+
+## Old usage:
 
 Create a .uxl file that is included in your .unoproj. For instance `CocoaPods.uxl`.
 
