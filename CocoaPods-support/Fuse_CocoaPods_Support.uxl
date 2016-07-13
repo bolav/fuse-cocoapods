@@ -2,7 +2,6 @@
 <Extensions Backend="CPlusPlus" Condition="iOS">
     <ProcessFile Name="run.sh" TargetName="run.sh" />
     <ProcessFile Name="build.sh" TargetName="build.sh" />
-    <ProcessFile Name="project.pbxproj" TargetName="@(Project.Name).xcodeproj/project.pbxproj" />
 </Extensions>
 
 </Package>
