@@ -105,6 +105,9 @@
 #if @(Pbxproj.PBXEmbedFrameworksBuildPhaseFiles:IsSet)
                 411CA8EC1C3C02DF00161584 /* Embed Frameworks */,
 #endif
+#if @(Pbxproj.PBXNativeTargetBuildPhases:IsSet)
+                @(Pbxproj.PBXNativeTargetBuildPhases)
+#endif
             );
             buildRules = (
             );
@@ -157,6 +160,12 @@
             runOnlyForDeploymentPostprocessing = 0;
        };
 /* End PBXResourcesBuildPhase section */
+
+#if @(Pbxproj.PBXShellScriptBuildPhase:IsSet)
+/* Begin PBXShellScriptBuildPhase section */
+        @(Pbxproj.PBXShellScriptBuildPhase)
+/* End PBXShellScriptBuildPhase section */
+#endif
 
 /* Begin PBXSourcesBuildPhase section */
         5A493DA1151A216A000ACE3F /* Sources */ = {
